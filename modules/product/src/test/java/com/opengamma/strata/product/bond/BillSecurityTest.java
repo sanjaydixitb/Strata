@@ -42,7 +42,6 @@ import com.opengamma.strata.product.TradeInfo;
 @Test
 public class BillSecurityTest {
 
-  private static final ReferenceData REF_DATA = ReferenceData.standard();
   private static final BusinessDayAdjustment BUSINESS_ADJUST =
       BusinessDayAdjustment.of(BusinessDayConventions.FOLLOWING, USNY);
   private static final BillYieldConvention YIELD_CONVENTION = BillYieldConvention.DISCOUNT;
